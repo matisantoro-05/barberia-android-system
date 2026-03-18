@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Barbería</string>
+
+    <!-- Login -->
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="no_account">¿No tenés cuenta? Registrate</string>
+    <string name="hint_email">Ingresá tu email</string>
+    <string name="hint_password">Ingresá tu contraseña</string>
+
+    <!-- Register -->
+    <string name="register">Registrarse</string>
+    <string name="name">Nombre</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="phone">Teléfono (opcional)</string>
+    <string name="hint_name">Ingresá tu nombre</string>
+    <string name="hint_phone">Ingresá tu teléfono</string>
+    <string name="hint_confirm_password">Confirmá tu contraseña</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_panel">Panel Administrador</string>
+    <string name="manage_users">Gestionar Usuarios</string>
+    <string name="manage_appointments">Gestionar Turnos</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- User Panel -->
+    <string name="user_panel">Panel Cliente</string>
+    <string name="available_appointments">Ver Turnos Disponibles</string>
+    <string name="my_appointments">Mis Turnos</string>
+
+    <!-- CRUD -->
+    <string name="add">Agregar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Appointments -->
+    <string name="date">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="status">Estado</string>
+    <string name="available">Disponible</string>
+    <string name="reserved">Reservado</string>
+    <string name="book_appointment">Sacar Turno</string>
+    <string name="cancel_appointment">Cancelar Turno</string>
+
+    <!-- Users -->
+    <string name="user_type">Tipo de Usuario</string>
+    <string name="admin">Administrador</string>
+    <string name="client">Cliente</string>
+
+    <!-- Messages -->
+    <string name="empty_fields">Por favor completá todos los campos</string>
+    <string name="passwords_not_match">Las contraseñas no coinciden</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="login_failed">Error al iniciar sesión</string>
+    <string name="register_success">Registro exitoso</string>
+    <string name="register_failed">Error al registrarse</string>
+    <string name="loading">Cargando...</string>
+    <string name="error_loading_data">Error al cargar datos</string>
+    <string name="operation_success">Operación exitosa</string>
+    <string name="operation_failed">Error en la operación</string>
+    <string name="confirm_delete">¿Confirmar eliminación?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <!-- Arrays -->
+    <string-array name="user_types">
+        <item>Admin</item>
+        <item>Usuario</item>
+    </string-array>
+</resources>

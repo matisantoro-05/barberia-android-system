@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_panel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnManageUsers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/manage_users"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:drawableStart="@drawable/ic_people"
+        android:drawablePadding="16dp"
+        android:backgroundTint="#2b7c99"/>
+
+    <Button
+        android:id="@+id/btnManageAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/manage_appointments"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:drawableStart="@drawable/ic_calendar"
+        android:drawablePadding="16dp"
+        android:backgroundTint="#2b7c99"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/logout"
+        android:textSize="18sp"
+        android:backgroundTint="#F44336"
+        android:drawableStart="@drawable/ic_exit"
+        android:drawablePadding="16dp"/>
+
+</LinearLayout>
